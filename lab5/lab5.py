@@ -4,8 +4,8 @@ from enum import Enum
 
 class WeatherType(Enum):
 
-    SUNNY = "SUNNY
-    CLOUDY = "CLOUDY
+    SUNNY = "SUNNY"
+    CLOUDY = "CLOUDY"
     RAINY = "RAINY"
     FOGGY = "FOGGY"
     SNOWY = "SNOWY"
