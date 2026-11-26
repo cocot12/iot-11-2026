@@ -4,12 +4,12 @@ from enum import Enum
 
 class WeatherType(Enum):
 
-    SUNNY = «SUNNY»
-    CLOUDY = «CLOUDY»
-    RAINY = «RAINY»
-    FOGGY = «FOGGY»
-    SNOWY = «SNOWY»
-    WINDY = «WINDY»
+    SUNNY = "SUNNY
+    CLOUDY = "CLOUDY
+    RAINY = "RAINY"
+    FOGGY = "FOGGY"
+    SNOWY = "SNOWY"
+    WINDY = "WINDY"
 
 
 class Weather:
@@ -171,8 +171,8 @@ def main():
     WeatherCalendar.find_max_temperature(calendar.records, date(2025, 11, 20))
 
     print(«\nПеревірка isLvivWeather:»)
-    w1.is_lviv_weather(w1.humidity, w1.weather_type)
-    w3.is_lviv_weather(w3.humidity, w3.weather_type)
+    w1.is_lviv_weather()
+    w3.is_lviv_weather()
     w1.is_lviv_weather(90, WeatherType.SUNNY)
 
     print(«\nВидалення запису:»)
